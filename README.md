@@ -3,6 +3,36 @@
 
 #注意：
 在xml布局中，有两个属性特别注意
- android:clipToPadding="true"
- android:fitsSystemWindows="true"
-当status bar为透明或半透明时(4.4以上),系统会设置view的paddingTop值为一个适合的值(status bar的高度)让view的内容不被上拉到状态栏，当在不占据status bar的情况下(4.4以下)会设置paddingTop值为0(因为没有占据status bar所以不用留出空间)。
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@color/mask_tags_5"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
+        android:text="你好，沉浸式状态栏"
+        android:textSize="24dp" />
+
+</LinearLayout>
+
+```
+另外三种方法在demo中有写到
+
+
+
+
+
+
+
+
+
+
