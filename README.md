@@ -27,7 +27,7 @@
 ```
 android:clipToPadding="true"
 android:fitsSystemWindows="true"
-这个一个boolean值的内部属性，让view可以根据系统窗口(如status bar)来调整自己的布局，如果值为true,就会调整view的paingding属性来给system windows留出空间....
+这一个boolean值的内部属性，让view可以根据系统窗口(如status bar)来调整自己的布局，如果值为true,就会调整view的paingding属性来给system windows留出空间....
 #另外三种方法在demo中有写到
 
 
