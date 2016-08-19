@@ -20,6 +20,6 @@
         android:background="@color/mask_tags_3"
         android:clipToPadding="true"
         android:fitsSystemWindows="true"
-        android:text="你好，沉浸式状态栏" />
+        android:text="动态的设置状态栏  实现沉浸式状态栏" />
 
 </LinearLayout>

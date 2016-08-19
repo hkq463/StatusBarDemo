@@ -12,7 +12,7 @@
         android:background="@color/mask_tags_5"
         android:clipToPadding="true"
         android:fitsSystemWindows="true"
-        android:text="你好，沉浸式状态栏"
+        android:text="使用第三方工具类实现"
         android:textSize="24dp" />
 
 </LinearLayout>

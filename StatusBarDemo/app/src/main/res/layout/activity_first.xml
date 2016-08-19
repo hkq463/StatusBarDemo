@@ -8,7 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:textSize="24dp"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true"
         android:background="@color/mask_tags_1"
-        android:text="你好，沉浸式状态栏"/>
+        android:text="第一种的方式设置状态栏的颜色"/>
 
 </LinearLayout>

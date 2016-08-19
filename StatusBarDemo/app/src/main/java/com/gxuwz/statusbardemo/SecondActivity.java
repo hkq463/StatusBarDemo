@@ -46,7 +46,6 @@ public class SecondActivity extends AppCompatActivity {
             linear_bar.setLayoutParams(params);
         }
     }
-
     /**
      * 通过反射的方式获取状态栏高度
      *
